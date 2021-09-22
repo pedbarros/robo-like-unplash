@@ -1,16 +1,14 @@
 {
   "name": "robo-login-like",
   "version": "1.0.0",
-  "description": "",
-  "main": "example.js",
-  "scripts": {
-    "start": "node index.js",
-    "dev": "nodemon ",
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "description": "A robo like",
+  "main": "index.js",
   "keywords": [],
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon"
+  },
   "dependencies": {
     "dotenv": "^8.2.0",
     "puppeteer": "^5.3.1"
